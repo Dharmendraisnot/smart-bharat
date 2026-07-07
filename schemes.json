@@ -1,0 +1,102 @@
+[
+  {
+    "id": "scheme_001",
+    "name": "PM Awas Yojana (Urban)",
+    "category": "Housing",
+    "description": "Pradhan Mantri Awas Yojana – Urban provides financial assistance for construction or enhancement of pucca houses for EWS, LIG, and MIG families in urban areas.",
+    "eligibility": "EWS (annual income up to ₹3 lakh), LIG (₹3–6 lakh), MIG-I (₹6–12 lakh), MIG-II (₹12–18 lakh). Beneficiary family must not own a pucca house anywhere in India.",
+    "benefits": "Interest subsidy of 3–6.5% on home loans. Credit Linked Subsidy up to ₹2.67 lakh for EWS/LIG.",
+    "apply_url": "https://pmaymis.gov.in",
+    "tags": ["housing", "loan", "urban", "subsidy"]
+  },
+  {
+    "id": "scheme_002",
+    "name": "Ayushman Bharat – PM Jan Arogya Yojana",
+    "category": "Health",
+    "description": "World's largest government-funded health insurance scheme providing coverage of ₹5 lakh per family per year for secondary and tertiary hospitalisation.",
+    "eligibility": "BPL families identified from SECC 2011 data. Covers over 10.74 crore families. No premium to be paid by beneficiaries.",
+    "benefits": "Health coverage up to ₹5 lakh per family per year. Covers 1,929 medical procedures including surgeries and daycare treatments. Cashless treatment at empanelled hospitals.",
+    "apply_url": "https://pmjay.gov.in",
+    "tags": ["health", "insurance", "BPL", "hospital", "cashless"]
+  },
+  {
+    "id": "scheme_003",
+    "name": "PM Kisan Samman Nidhi",
+    "category": "Agriculture",
+    "description": "Direct income support of ₹6,000 per year provided to small and marginal farmer families in three equal instalments of ₹2,000 each.",
+    "eligibility": "All small and marginal farmer families across the country. Beneficiary must own cultivable land. Excludes income tax payers, government employees, and high-income earners.",
+    "benefits": "₹6,000 per year (₹2,000 every 4 months) directly to bank account via DBT.",
+    "apply_url": "https://pmkisan.gov.in",
+    "tags": ["agriculture", "farmer", "income", "direct benefit"]
+  },
+  {
+    "id": "scheme_004",
+    "name": "PM Jan Dhan Yojana",
+    "category": "Finance",
+    "description": "National mission for financial inclusion providing basic banking and financial services to all Indian citizens, especially the unbanked.",
+    "eligibility": "All Indian citizens above 10 years of age. No minimum balance required. Available across all bank branches and Business Correspondents.",
+    "benefits": "Zero-balance savings account, RuPay debit card, ₹2 lakh accident insurance cover, ₹30,000 life insurance cover, overdraft facility up to ₹10,000.",
+    "apply_url": "https://pmjdy.gov.in",
+    "tags": ["banking", "finance", "savings", "insurance", "all citizens"]
+  },
+  {
+    "id": "scheme_005",
+    "name": "Sukanya Samriddhi Yojana",
+    "category": "Women & Child",
+    "description": "A small savings scheme for the girl child under the Beti Bachao Beti Padhao campaign, offering attractive interest rates and tax benefits.",
+    "eligibility": "Girl child below 10 years of age. Account opened by natural/legal guardian. Maximum 2 accounts per family (one per girl child). One account allowed for twins/triplets.",
+    "benefits": "Current interest rate 8.2% p.a. (one of the highest). Tax exemption under Section 80C up to ₹1.5 lakh. Maturity amount used for education or marriage.",
+    "apply_url": "https://nsiindia.gov.in",
+    "tags": ["girl child", "savings", "education", "tax", "women"]
+  },
+  {
+    "id": "scheme_006",
+    "name": "PM Mudra Yojana (PMMY)",
+    "category": "Employment",
+    "description": "Provides micro and small enterprise loans to non-corporate, non-farm small/micro enterprises through various financial institutions.",
+    "eligibility": "Any Indian citizen with a business plan for non-farm income-generating activity. Three categories: Shishu (up to ₹50,000), Kishore (₹50,000–5 lakh), Tarun (₹5–10 lakh).",
+    "benefits": "Collateral-free loans up to ₹10 lakh. No processing fee for Shishu loans. Mudra Card for working capital needs.",
+    "apply_url": "https://mudra.org.in",
+    "tags": ["loan", "business", "self-employed", "micro enterprise", "employment"]
+  },
+  {
+    "id": "scheme_007",
+    "name": "PM Ujjwala Yojana",
+    "category": "Energy",
+    "description": "Provides free LPG connections to women from BPL households to protect their health and shift from traditional biomass-based cooking.",
+    "eligibility": "Women from BPL households. Beneficiary must not already have an LPG connection in the household. Identified through SECC-2011 data.",
+    "benefits": "Free LPG connection with first refill. Security deposit waiver. EMI facility for stove and first refill purchase.",
+    "apply_url": "https://pmuy.gov.in",
+    "tags": ["LPG", "gas", "BPL", "women", "energy", "cooking"]
+  },
+  {
+    "id": "scheme_008",
+    "name": "MGNREGS (Mahatma Gandhi NREGA)",
+    "category": "Employment",
+    "description": "Guarantees 100 days of wage employment per year to rural households whose adult members volunteer to do unskilled manual work.",
+    "eligibility": "Adult members of any rural household. Must apply for a Job Card at the local Gram Panchayat.",
+    "benefits": "100 days of guaranteed wage employment per year. Statutory minimum wages. Work must be provided within 15 days of application or unemployment allowance paid.",
+    "apply_url": "https://nrega.nic.in",
+    "tags": ["employment", "rural", "manual work", "wages", "guaranteed"]
+  },
+  {
+    "id": "scheme_009",
+    "name": "Beti Bachao Beti Padhao",
+    "category": "Women & Child",
+    "description": "A national campaign to address the declining Child Sex Ratio (CSR) and promote the welfare and education of the girl child.",
+    "eligibility": "All families with girl children. Special focus on districts with low CSR across India.",
+    "benefits": "Educational support for girl children. Awareness campaigns. Special scholarships and incentives for girl child education. Links to Sukanya Samriddhi Yojana.",
+    "apply_url": "https://wcd.nic.in",
+    "tags": ["girl child", "education", "women", "awareness", "scholarship"]
+  },
+  {
+    "id": "scheme_010",
+    "name": "PM Scholarship Scheme (PMSS)",
+    "category": "Education",
+    "description": "Encourages technical and post-graduate education for the wards and widows of ex-servicemen, ex-Coast Guard personnel, and gallantry award winners.",
+    "eligibility": "Wards/widows of ex-servicemen, ex-Coast Guard, and those killed/disabled in action. Must have secured minimum 60% marks in Class 12. Pursuing professional degree courses.",
+    "benefits": "₹3,000 per month for boys, ₹3,500 per month for girls. Scholarship for duration of professional course.",
+    "apply_url": "https://scholarships.gov.in",
+    "tags": ["scholarship", "education", "ex-servicemen", "students", "professional"]
+  }
+]

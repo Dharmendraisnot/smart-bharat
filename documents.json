@@ -1,0 +1,190 @@
+[
+  {
+    "id": "doc_001",
+    "name": "Aadhaar Card",
+    "purpose": "12-digit unique identity number issued by UIDAI to every Indian resident. Used as primary identity and address proof for all government services.",
+    "issuing_authority": "UIDAI – Unique Identification Authority of India",
+    "required_documents": [
+      "Proof of Identity: Passport, Voter ID, PAN Card, or Driving Licence",
+      "Proof of Address: Utility bill (not older than 3 months), Bank passbook, or Rental agreement",
+      "Date of Birth proof: Birth Certificate or School leaving certificate"
+    ],
+    "steps": [
+      "Visit nearest Aadhaar Seva Kendra or Common Service Centre (CSC)",
+      "Fill the Aadhaar Enrolment Form",
+      "Submit documents and provide biometrics (fingerprints, iris scan, photograph)",
+      "Receive 14-digit Enrolment ID on acknowledgment slip",
+      "Download e-Aadhaar from uidai.gov.in after 2-3 days or receive physical card in 60-90 days"
+    ],
+    "fees": "Free of cost",
+    "processing_time": "60–90 days for physical card; e-Aadhaar in 2–3 days",
+    "helpline": "1947",
+    "portal": "https://uidai.gov.in"
+  },
+  {
+    "id": "doc_002",
+    "name": "Ration Card",
+    "purpose": "Official document for purchasing subsidised food grains (rice, wheat, sugar) from Fair Price Shops under the Public Distribution System (PDS).",
+    "issuing_authority": "State Food and Civil Supplies Department / District Collector's Office",
+    "required_documents": [
+      "Aadhaar card for all family members",
+      "Proof of residence: electricity bill or rental agreement",
+      "Passport-size photographs of all family members",
+      "Income certificate (for BPL card)",
+      "Surrender certificate if transferring from another state"
+    ],
+    "steps": [
+      "Visit State Food and Civil Supplies Department portal or nearest tehsil/CSC",
+      "Fill Form-1 (Application for New Ration Card)",
+      "Attach all required documents",
+      "Submit to Block Development Officer (BDO) or upload online",
+      "Collect acknowledgment slip with application number",
+      "Card issued within 15–30 working days after verification"
+    ],
+    "fees": "Free of cost",
+    "processing_time": "15–30 working days",
+    "helpline": "1800-111-202 (varies by state)",
+    "portal": "https://nfsa.gov.in"
+  },
+  {
+    "id": "doc_003",
+    "name": "Caste Certificate",
+    "purpose": "Official document certifying that a person belongs to a Scheduled Caste (SC), Scheduled Tribe (ST), or Other Backward Class (OBC). Required for government reservations, admissions, and schemes.",
+    "issuing_authority": "Revenue Department – Sub-Divisional Magistrate (SDM) / Tehsildar / District Collector",
+    "required_documents": [
+      "Aadhaar Card",
+      "Proof of caste of parents or grandparents (school certificate, old caste certificate)",
+      "Domicile/Residence certificate",
+      "Passport-size photographs (2 copies)",
+      "Self-declaration affidavit"
+    ],
+    "steps": [
+      "Visit the Sub-Divisional Magistrate (SDM) office or apply online through state portal",
+      "Fill the prescribed application form",
+      "Attach all supporting documents and affidavit",
+      "Application verified by local patwari/revenue officer",
+      "Certificate issued within 15–30 days (7–10 days in most states via online portal)"
+    ],
+    "fees": "Free or nominal (₹10–₹50 depending on state)",
+    "processing_time": "7–30 working days",
+    "helpline": "Contact district SDM office",
+    "portal": "Apply at your state's service portal (e.g., edistrict.up.gov.in for UP)"
+  },
+  {
+    "id": "doc_004",
+    "name": "Income Certificate",
+    "purpose": "Certifies the total annual income of a family from all sources. Required for BPL card, government scheme eligibility, college admissions, and fee waivers.",
+    "issuing_authority": "Revenue Department – Tehsildar / SDM / District Magistrate",
+    "required_documents": [
+      "Aadhaar Card",
+      "Salary slip or income affidavit (self-declaration)",
+      "Bank passbook or bank statement",
+      "Ration card",
+      "Proof of residence"
+    ],
+    "steps": [
+      "Visit tehsil office or apply online through state e-services portal",
+      "Fill income certificate application form",
+      "Attach documents and income declaration affidavit",
+      "Revenue inspector or patwari verifies income locally",
+      "Certificate issued by Tehsildar within 7–15 days"
+    ],
+    "fees": "Free or nominal (₹10–₹50)",
+    "processing_time": "7–15 working days",
+    "helpline": "Contact local tehsil office",
+    "portal": "Apply at your state's e-district portal"
+  },
+  {
+    "id": "doc_005",
+    "name": "Voter ID (EPIC Card)",
+    "purpose": "Electoral Photo Identity Card issued to all eligible Indian voters (18+). Used as identity proof and required to cast votes in elections.",
+    "issuing_authority": "Election Commission of India – Electoral Registration Officer (ERO)",
+    "required_documents": [
+      "Age proof: Birth certificate, Class 10 marksheet, Aadhaar",
+      "Address proof: Aadhaar, utility bill, bank passbook",
+      "Passport-size photographs (2 copies)"
+    ],
+    "steps": [
+      "Go to voters.eci.gov.in or National Voter Services Portal (NVSP)",
+      "Click 'New Registration' and fill Form 6",
+      "Upload documents and photograph",
+      "Booth Level Officer (BLO) will verify at your address",
+      "Voter ID dispatched to your address within 30–60 days. Can also download e-EPIC"
+    ],
+    "fees": "Free of cost",
+    "processing_time": "30–60 days (e-EPIC available instantly after approval)",
+    "helpline": "1950 (Voter Helpline)",
+    "portal": "https://voters.eci.gov.in"
+  },
+  {
+    "id": "doc_006",
+    "name": "Birth Certificate",
+    "purpose": "Official record of a child's birth. Required for school admissions, passports, government scheme eligibility, and legal identity proof.",
+    "issuing_authority": "Municipal Corporation / Gram Panchayat / Registrar of Births and Deaths",
+    "required_documents": [
+      "Hospital discharge certificate or birth proof from hospital",
+      "Parents' Aadhaar cards",
+      "Marriage certificate of parents",
+      "Proof of residence"
+    ],
+    "steps": [
+      "Register birth at hospital within 21 days (hospitals usually do this automatically)",
+      "If not registered, visit Municipal Corporation/Panchayat with documents",
+      "Fill Form No. 1 under RBD Act",
+      "Pay nominal fee and receive birth certificate",
+      "For delayed registration (after 1 year), obtain Magistrate's order"
+    ],
+    "fees": "Free within 21 days; ₹2–₹50 after that (varies by municipality)",
+    "processing_time": "1–7 days",
+    "helpline": "Contact local Municipal Corporation",
+    "portal": "https://crsorgi.gov.in"
+  },
+  {
+    "id": "doc_007",
+    "name": "Domicile Certificate",
+    "purpose": "Certifies that a person is a resident/domicile of a particular state. Required for state government jobs, state quota seats in colleges, and many state-specific schemes.",
+    "issuing_authority": "Revenue Department – Tehsildar / SDM",
+    "required_documents": [
+      "Aadhaar Card",
+      "Proof of residence for minimum required years (3–15 years depending on state)",
+      "Ration card",
+      "Self-declaration affidavit",
+      "Passport-size photographs"
+    ],
+    "steps": [
+      "Visit tehsil office or state e-district portal",
+      "Fill the domicile certificate application form",
+      "Attach proof of continuous residence in the state",
+      "Revenue inspector verifies residence",
+      "Tehsildar issues certificate within 15–30 days"
+    ],
+    "fees": "Free or nominal (₹10–₹100 depending on state)",
+    "processing_time": "15–30 working days",
+    "helpline": "Contact local tehsil/revenue office",
+    "portal": "Apply at your state's e-district portal"
+  },
+  {
+    "id": "doc_008",
+    "name": "Driving Licence",
+    "purpose": "Official licence to drive motor vehicles on Indian roads. Required for operating any motor vehicle and widely accepted as identity and address proof.",
+    "issuing_authority": "Regional Transport Office (RTO) under Ministry of Road Transport and Highways",
+    "required_documents": [
+      "Age proof: Aadhaar, Birth Certificate, or Passport",
+      "Address proof: Aadhaar, Utility Bill, or Voter ID",
+      "Learner's Licence (required before applying for permanent DL)",
+      "Medical certificate (Form 1A) for commercial vehicle licence",
+      "Passport-size photographs (6 copies)"
+    ],
+    "steps": [
+      "Step 1: Apply for Learner's Licence online at parivahan.gov.in or at RTO",
+      "Step 2: Pass the Learner's Licence test (traffic rules and signs)",
+      "Step 3: After 30 days, apply for Permanent Driving Licence",
+      "Step 4: Appear for driving test at RTO",
+      "Step 5: DL issued within 7 days of passing test or dispatched by post"
+    ],
+    "fees": "₹200–₹1,000 depending on vehicle class (two-wheeler, four-wheeler, etc.)",
+    "processing_time": "7–30 days after driving test",
+    "helpline": "Contact your nearest RTO",
+    "portal": "https://parivahan.gov.in"
+  }
+]
