@@ -47,11 +47,15 @@ with st.sidebar:
     )
     st.markdown("---")
     st.markdown("### 🧭 Navigate")
-    st.page_link("app.py",                            label="🏠 Home",                   )
-    st.page_link("pages/1_AI_Chatbot.py",             label="💬 AI Civic Chatbot",        )
-    st.page_link("pages/2_Scheme_Finder.py",          label="🏛️ Government Scheme Finder", )
-    st.page_link("pages/3_Grievance_Portal.py",       label="📣 Grievance Portal",         )
-    st.page_link("pages/4_Document_Simplifier.py",    label="📄 Document Simplifier",      )
+    st.markdown("""
+<nav>
+<a href="/"            target="_self" style="display:block;padding:0.35rem 0.5rem;border-radius:6px;color:#1E3A5F;text-decoration:none;font-size:0.92rem;font-weight:600;">🏠 Home</a>
+<a href="/AI_Chatbot"  target="_self" style="display:block;padding:0.35rem 0.5rem;border-radius:6px;color:#1E3A5F;text-decoration:none;font-size:0.92rem;">💬 AI Civic Chatbot</a>
+<a href="/Scheme_Finder" target="_self" style="display:block;padding:0.35rem 0.5rem;border-radius:6px;color:#1E3A5F;text-decoration:none;font-size:0.92rem;">🏛️ Government Scheme Finder</a>
+<a href="/Grievance_Portal" target="_self" style="display:block;padding:0.35rem 0.5rem;border-radius:6px;color:#1E3A5F;text-decoration:none;font-size:0.92rem;">📣 Grievance Portal</a>
+<a href="/Document_Simplifier" target="_self" style="display:block;padding:0.35rem 0.5rem;border-radius:6px;color:#1E3A5F;text-decoration:none;font-size:0.92rem;">📄 Document Simplifier</a>
+</nav>
+""", unsafe_allow_html=True)
     st.markdown("---")
     st.markdown(
         """
@@ -125,8 +129,7 @@ with col1:
         ),
         unsafe_allow_html=True,
     )
-    if st.button("Open Chatbot →", key="btn_chat", use_container_width=True):
-        st.switch_page("pages/1_AI_Chatbot.py")
+    st.markdown('<a href="/AI_Chatbot" target="_self"><button style="width:100%;background:linear-gradient(90deg,#FF9933,#e8821a);color:white;border:none;border-radius:8px;padding:0.45rem 1rem;font-weight:700;font-size:0.95rem;cursor:pointer;">Open Chatbot →</button></a>', unsafe_allow_html=True)
 
 with col2:
     st.markdown(
@@ -137,8 +140,7 @@ with col2:
         ),
         unsafe_allow_html=True,
     )
-    if st.button("Find Schemes →", key="btn_scheme", use_container_width=True):
-        st.switch_page("pages/2_Scheme_Finder.py")
+    st.markdown('<a href="/Scheme_Finder" target="_self"><button style="width:100%;background:linear-gradient(90deg,#FF9933,#e8821a);color:white;border:none;border-radius:8px;padding:0.45rem 1rem;font-weight:700;font-size:0.95rem;cursor:pointer;">Find Schemes →</button></a>', unsafe_allow_html=True)
 
 with col3:
     st.markdown(
@@ -149,8 +151,7 @@ with col3:
         ),
         unsafe_allow_html=True,
     )
-    if st.button("File Complaint →", key="btn_grievance", use_container_width=True):
-        st.switch_page("pages/3_Grievance_Portal.py")
+    st.markdown('<a href="/Grievance_Portal" target="_self"><button style="width:100%;background:linear-gradient(90deg,#FF9933,#e8821a);color:white;border:none;border-radius:8px;padding:0.45rem 1rem;font-weight:700;font-size:0.95rem;cursor:pointer;">File Complaint →</button></a>', unsafe_allow_html=True)
 
 with col4:
     st.markdown(
@@ -161,8 +162,7 @@ with col4:
         ),
         unsafe_allow_html=True,
     )
-    if st.button("Simplify Docs →", key="btn_docs", use_container_width=True):
-        st.switch_page("pages/4_Document_Simplifier.py")
+    st.markdown('<a href="/Document_Simplifier" target="_self"><button style="width:100%;background:linear-gradient(90deg,#FF9933,#e8821a);color:white;border:none;border-radius:8px;padding:0.45rem 1rem;font-weight:700;font-size:0.95rem;cursor:pointer;">Simplify Docs →</button></a>', unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
 
